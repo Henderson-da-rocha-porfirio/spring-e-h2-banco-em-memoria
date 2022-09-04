@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author Eazy Bytes
- *
+ * @Coauthor Tuyo System
  */
 
 @RestController
