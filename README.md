@@ -12,3 +12,12 @@ http://localhost:8080/h2-console/
 ````
  H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
 ````
+#### 4. Testando no Postman:
+````
+http://localhost:8080/myAccount
+````
+##### - se der um erro 415: Content type 'text/plain;charset=UTF-8' not supported], colocar no Headers:
+````
+1. KEY: Content-Type
+2. VALUE: application/json
+````
