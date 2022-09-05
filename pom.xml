@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tuyo</groupId>
-	<artifactId>accounts</artifactId>
+	<artifactId>accounts-h2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>accounts</name>
+	<name>accounts-h2</name>
 	<description>Microservice for Accounts</description>
 	<properties>
 	</properties>
