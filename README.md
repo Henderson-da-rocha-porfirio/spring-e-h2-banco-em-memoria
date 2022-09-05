@@ -21,4 +21,4 @@ http://localhost:8080/myAccount
 1. KEY: Content-Type
 2. VALUE: application/json
 ````
-#### 5. Não há nada acoplado da regra de negócio com os microserviços cartões ou empréstimos.
+#### 5. A beleza dos Microservices: Não há nada acoplado da regra de negócio com os microserviços cartões ou empréstimos.
