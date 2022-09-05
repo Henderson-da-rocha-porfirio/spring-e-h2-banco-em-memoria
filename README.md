@@ -1,4 +1,4 @@
-# Microserviço Contas
+# H2 banco em memória
 ### Acessando ao H2
 #### 1. Verificar no console o endpoint criado:
 ````
