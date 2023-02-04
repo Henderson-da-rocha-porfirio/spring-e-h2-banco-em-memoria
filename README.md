@@ -22,3 +22,13 @@ http://localhost:8080/myAccount
 2. VALUE: application/json
 ````
 #### 5. A beleza dos Microservices: Não há nada acoplado da regra de negócio com os microserviços cartões ou empréstimos.
+
+#### 6. Não esquecer de habilitar em application.properties ou application.yml:
+````
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+````
+
+### - Entrando pelo navegador:
+> 1. Colocar a URL passada em application.properties ou application.yml: jdbc:h2:mem:springbatch conforme imagem abaixo:
+![Banco de Dados _ Datasources _  h2](https://user-images.githubusercontent.com/46926951/216785573-8dc04eb4-68b8-4a06-984e-e7ae780e0f55.png)
