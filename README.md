@@ -30,5 +30,13 @@ spring.h2.console.enabled=true
 ````
 
 ### - Entrando pelo navegador:
-> 1. Colocar a URL passada em application.properties ou application.yml: jdbc:h2:mem:springbatch conforme imagem abaixo:
+````
+http://localhost:8080/h2-console/
+````
+> 1. Tirar a padrão que está conforme a imagem:
+
 ![Banco de Dados _ Datasources _  h2](https://user-images.githubusercontent.com/46926951/216785573-8dc04eb4-68b8-4a06-984e-e7ae780e0f55.png)
+
+> 2. Colocar a URL passada em application.properties ou application.yml por exemplo: jdbc:h2:mem:springbatch conforme imagem abaixo:
+
+![Banco de Dados _ Datasources _  h2 _ 2](https://user-images.githubusercontent.com/46926951/216785820-e3e7735e-a5cf-4f87-85bc-3e6f1d4cbae9.png)
